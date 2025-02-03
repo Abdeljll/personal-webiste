@@ -1,15 +1,19 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Chat Instantané'
+cover: './chat.png'
+github: 'https://gitlab.info.uqam.ca/jalal.abdelaziz/tp1-base'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Angular
+  - HTML/CSS
+  - Spring Boot
+  - JAVA
+  - TypeScript
+  - JavaScript
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Création d'une application complète de Discussion Instantanée du type Whatsapp.
+
+Application plus concentrée sur le backend, ainsi que le déploiement.
+
+Projet d'un cours de mon baccalauréat (INF5190)

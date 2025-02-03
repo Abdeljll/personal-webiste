@@ -1,40 +1,40 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'abdelazizjalal7@icloud.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/Abdeljll',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/abdelazizjalal/',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://x.com/Abdel_ouuuuuu',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/jalal-abdelaziz/',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'GitLab',
+      url: 'https://gitlab.info.uqam.ca/jalal.abdelaziz',
     },
   ],
 
   navLinks: [
     {
-      name: 'About',
+      name: 'À propos',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Expérience',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projets',
       url: '/#projects',
     },
     {
