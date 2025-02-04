@@ -125,43 +125,43 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript', 'TypeScript', 'React', 'Java', 'C#', 'C++'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">À propos de moi</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello ! Mon nom est Abdelaziz, étudiant en dernière année au Baccalauréat en
+              Informatique et Génie Logiciel à l'Université du Québec à Montréal. Mon intérêt pour
+              le développement est né depuis le Lycée Lyautey, au Maroc. Ayant choisi l'option de
+              spécialité &quot;Numériques et Sciences Informatique&quot;, j'ai tout de suite su que
+              je ferai carrière dans ce domaine.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              J'ai eu la chance, dans mon parcours académique, de travailler sur plusieurs projets
+              qui m'ont permis d'appliquer de nombreux langages de programmation. Des projets qui
+              m'ont servis d'une grande base pour le développement logiciel à petite / moyenne et
+              grande échelle. J'ai eu la chance de travailler sur un projet d'un site internet de{' '}
+              <a href="https://gitlab.info.uqam.ca/kc391063/swyle">
+                vente de vêtements d'occasion nommé SWYLE
+              </a>
+              ,{' '}
+              <a href="https://gitlab.info.uqam.ca/jalal.abdelaziz/tp1-base">
+                d'une application de chat instantané comme WhatsApp
+              </a>
+              , ou tout récemment (je viens de commencer le projet),{' '}
+              <a href="https://gitlab.info.uqam.ca/jalal.abdelaziz/inf6150-hiver2025">
+                un système de gestion d'une bibliothèque numérique
+              </a>
+              .
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Voici certaines technologies que j'ai récemment utilisé :</p>
           </div>
 
           <ul className="skills-list">
@@ -173,7 +173,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="C:\Users\abdel\Personal Website\personal-webiste\src\images\favicons\me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -1,81 +1,78 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="./src/images/favicons/relaylogo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  Site internet personnel - RelayV1
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  Mon premier site internet personnel, détaillant ma bio, mon expérience et mes projets.
 </p>
 <p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
+  Capture d'écran de la page d'accueil :
 </p>
 <p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
+  <a>
+    <img src="./src/images/favicons/accueil.png" alt="Page d'accueil" />
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+## 🚨 Informations importantes !
 
-## 🚨 Forking this repo (please read!)
+> ### Le template de ce site internet appartient à [Brittany Chiang](https://github.com/bchiang7). J'ai simplement fait les modifications nécessaires pour adapter son site internet à mon expérience, et mon éducation. Je ne suis pas un génie du développement web !
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+> Veuillez noter que site n'est pas encore terminé. Plusieurs ajustements sont nécessaires pour rendre le site 100% fonctionnel, ainsi que personnalisé.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+> Des mises à jours régulières sertont fait très prochainement.
 
 ## 🛠 Installation & Set Up
 
-1. Install the Gatsby CLI
+1. Ouvrez votre terminal et exécutez
+
+   ```sh
+   git clone https://github.com/bchiang7/v4.git
+   ```
+
+2. Installer le Gatsby CLI
 
    ```sh
    npm install -g gatsby-cli
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+3. Installez et utilisez la version correcte de Node en utilisant [NVM](https://github.com/nvm-sh/nvm)
 
    ```sh
    nvm install
    ```
 
-3. Install dependencies
+4. Installez les dependances
 
    ```sh
    yarn
    ```
 
-4. Start the development server
+5. Démarrez le serveur de développement
 
    ```sh
    npm start
    ```
 
-## 🚀 Building and Running for Production
+## 🚀 Construction and Running pour la Production
 
-1. Generate a full static production build
+1. Générer une version statique de production
 
    ```sh
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+1. Prévisualiser le site tel qu'il apparaîtra une fois déployé
 
    ```sh
    npm run serve
    ```
 
-## 🎨 Color Reference
+## 🎨 Références des couleurs
 
-| Color          | Hex                                                                |
+| Couleur        | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
 | Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
 | Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
@@ -85,3 +82,17 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+
+## 💰 Credits (english)
+
+> All credits should go to [Brittany Chiang](https://github.com/bchiang7), who is the beast that created this beautiful and dynamic website.
+
+> If you want to see her version of the website, clic [here](https://v4.brittanychiang.com).
+
+> All her socials are either on her webite, or on her [Github Profile](https://github.com/bchiang7).
+
+> Her version of the website is licensed by the [MIT](https://www.mit.edu).
+
+<div align="center">
+  <img alt="Logo" src="./src/images/favicons/relaylogo.png" width="100" />
+</div>
