@@ -18,7 +18,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     {
-      //resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
         //name: 'Brittany Chiang',
         //short_name: 'Brittany Chiang',
