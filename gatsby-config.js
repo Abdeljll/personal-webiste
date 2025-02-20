@@ -155,5 +155,15 @@ module.exports = {
         trackingId: 'UA-45666519-2',
       },
     },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {}, // Ajoute des en-têtes HTTP personnalisés
+        allPageHeaders: [], // Ajoute des en-têtes à toutes les pages
+        mergeSecurityHeaders: true, // Fusionne les en-têtes de sécurité par défaut
+        mergeCachingHeaders: true, // Fusionne les en-têtes de cache par défaut
+        generateMatchPathRewrites: true, // Active la réécriture des routes
+      },
+    },
   ],
 };
