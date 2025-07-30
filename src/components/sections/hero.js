@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Je suis un futur diplômé en{' '}
+        Fraîchement diplômé en{' '}
         <a href="https://etudier.uqam.ca/programme?code=7316">Informatique et Génie Logiciel</a>.
         J'aime particulièrement travailler sur des projets collaboratifs ou je peux partager mes
         idées, apprendre des autres et contribuer au succès collectif.

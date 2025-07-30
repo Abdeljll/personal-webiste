@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'TypeScript', 'React', 'Java', 'C#', 'C++'];
+  const skills = ['JavaScript', 'TypeScript', 'React', 'Java', 'C#', 'C++', 'HTML', 'CSS', 'Python', 'SQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,7 +135,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello ! Mon nom est Abdelaziz, étudiant en dernière année au Baccalauréat en
+              Hello ! Mon nom est Abdelaziz, diplômé du Baccalauréat en
               Informatique et Génie Logiciel à l'Université du Québec à Montréal. Mon intérêt pour
               le développement est né depuis le Lycée Lyautey, au Maroc. Ayant choisi l'option de
               spécialité &quot;Numériques et Sciences Informatique&quot;, j'ai tout de suite su que
@@ -154,7 +154,7 @@ const About = () => {
               <a href="https://gitlab.info.uqam.ca/jalal.abdelaziz/tp1-base">
                 d'une application de chat instantané comme WhatsApp
               </a>
-              , ou tout récemment (je viens de commencer le projet),{' '}
+              , ou tout récemment,{' '}
               <a href="https://gitlab.info.uqam.ca/jalal.abdelaziz/inf6150-hiver2025">
                 un système de gestion d'une bibliothèque numérique
               </a>
