@@ -2,12 +2,11 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
-    description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+    title: 'Abdelaziz Jalal',
+    description: 'Abdelaziz Jalal est un diplômé en Informatiue et Génie logiciel qui adore coder.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@apple',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,12 +19,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
-        start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
-        display: 'minimal-ui',
+        //name: 'Abdelaziz Jalal',
+        //short_name: 'Abdelaziz Jalal',
+        //start_url: '/',
+        //background_color: config.colors.darkNavy,
+        //theme_color: config.colors.navy,
+        //display: 'minimal-ui',
         icon: 'src/images/logo.png',
       },
     },
@@ -153,6 +152,16 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-45666519-2',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {}, // Ajoute des en-têtes HTTP personnalisés
+        allPageHeaders: [], // Ajoute des en-têtes à toutes les pages
+        mergeSecurityHeaders: true, // Fusionne les en-têtes de sécurité par défaut
+        mergeCachingHeaders: true, // Fusionne les en-têtes de cache par défaut
+        generateMatchPathRewrites: true, // Active la réécriture des routes
       },
     },
   ],
