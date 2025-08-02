@@ -3,8 +3,9 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Abdelaziz Jalal',
-    description: 'Abdelaziz Jalal est un diplômé en Informatiue et Génie logiciel qui adore coder.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    description:
+      'Abdelaziz Jalal est un diplômé en Informatique et Génie logiciel qui adore coder.',
+    siteUrl: 'https://abdelazizjalal.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@apple',
   },
