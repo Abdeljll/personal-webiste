@@ -184,7 +184,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="C:\Users\abdel\Personal Website\personal-webiste\src\images\favicons\me.png"
+              src="../../images/favicons/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
